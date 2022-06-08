@@ -75,6 +75,7 @@ class Color(Enum):
     BLUE = 'blue'
 
 color = Color(input("Enter your choice of 'red', 'blue' or 'green': "))
+    
     match color:
         case Color.RED:
             print("I see red!")
